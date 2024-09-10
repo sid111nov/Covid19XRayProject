@@ -129,6 +129,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+xrayenv/
+
+#Kaggle
+.Kaggle/
 
 # Spyder project settings
 .spyderproject

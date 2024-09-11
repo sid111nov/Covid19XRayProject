@@ -21,7 +21,7 @@ st.title('Chest X-Ray Covid Detection')
 
 image_file = st.file_uploader("Upload Chest X-Ray Image",type=['jpg','png','jpeg'],accept_multiple_files=False)
 
-st.markdown('***Note: This is just a domstration app, so please upload x-ray images only***')
+st.markdown('***Note: This is just a demo app, so please upload x-ray images only***')
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = XrayCNN(num_classes=2)

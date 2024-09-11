@@ -60,7 +60,7 @@ if st.button('Submit',type="primary"):
          if(pred==0):
             st.header(f"Patient is Normal")
          elif (pred==1):
-            st.header("Patient may have Pnemonia; please consult doctor for further diagnosis and treatment")  
+            st.header("Patient may have Pneumonia; please consult doctor for further diagnosis and treatment")  
  
 
 
